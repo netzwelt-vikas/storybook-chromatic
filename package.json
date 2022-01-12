@@ -1,5 +1,5 @@
 {
-  "name": "storybook-basic",
+  "name": "@netzwelt-vikas/storybook-basic",
   "version": "1.0.0",
   "description": "storybook-basic",
   "main": "index.js",
@@ -73,6 +73,7 @@
     "babel-loader": "8.1.0"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "name": "@netzwelt-vikas/storybook-basic",
+    "registry": "https://npm.pkg.github.com/netzwelt-vikas"
   }
 }
