@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.login-box {
+  height: calc(100vh - 100px);
+  display: flex;
+  max-width: 350px;
+  margin: 0 auto;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.input-item {
+  margin-bottom: 25px;
+}
+button {
+  cursor: pointer;
+}
+.checkbox-item div {
+  color: #000;
+}

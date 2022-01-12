@@ -1,0 +1,78 @@
+{
+  "name": "storybook-basic",
+  "version": "1.0.0",
+  "description": "storybook-basic",
+  "main": "index.js",
+"dependencies": {
+    "@chakra-ui/core": "^0.8.0",
+    "@emotion/core": "^10.0.34",
+    "@emotion/styled": "^10.0.27",
+    "@storybook/builder-webpack4": "^6.4.9",
+    "@storybook/manager-webpack4": "^6.4.9",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "emotion-theming": "^10.0.27",
+    "eslint-loader": "^4.0.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "3.4.3",
+    "webpack": "4.42.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "storybook": "start-storybook -p 6006 -s public",
+    "build-storybook": "build-storybook -s public",
+    "chromatic": "npx chromatic --project-token=06e5091fb6f5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/netzwelt-vikas/storybook-chromatic.git"
+  },
+  "keywords": [
+    "storybook-basic"
+  ],
+  "author": "vikas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/netzwelt-vikas/storybook-chromatic/issues"
+  },
+  "homepage": "https://github.com/netzwelt-vikas/storybook-chromatic#readme",
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.1",
+    "@storybook/addon-actions": "^6.4.9",
+    "@storybook/addon-essentials": "^6.4.9",
+    "@storybook/addon-knobs": "^6.4.0",
+    "@storybook/addon-links": "^6.4.9",
+    "@storybook/node-logger": "^6.4.9",
+    "@storybook/preset-create-react-app": "^3.1.4",
+    "@storybook/react": "^6.4.9",
+    "babel-loader": "^8.1.0",
+    "chromatic": "^6.3.3",
+    "react-is": "^16.13.1"
+  },
+  "optionalDependencies": {
+    "babel-loader": "8.1.0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/netzwelt-vikas"
+  }
+}
