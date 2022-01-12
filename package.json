@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "storybook-basic",
   "main": "index.js",
-"dependencies": {
+  "dependencies": {
     "@chakra-ui/core": "^0.8.0",
     "@emotion/core": "^10.0.34",
     "@emotion/styled": "^10.0.27",
@@ -73,6 +73,6 @@
     "babel-loader": "8.1.0"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/netzwelt-vikas"
+    "registry": "https://npm.pkg.github.com/"
   }
 }
