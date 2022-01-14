@@ -75,5 +75,15 @@
   "publishConfig": {
     "name": "@netzwelt-vikas/storybook-basic",
     "registry": "https://npm.pkg.github.com/netzwelt-vikas"
+  },
+  "babel": {
+    "presets": [
+      [
+        "react-app",
+        {
+          "absoluteRuntime": false
+        }
+      ]
+    ]
   }
 }
