@@ -1,6 +1,6 @@
 {
   "name": "@netzwelt-vikas/storybook-basic",
-  "version": "1.2.2",
+  "version": "1.2.1",
   "description": "storybook-basic",
   "main": "index.js",
   "dependencies": {
@@ -75,11 +75,5 @@
   "publishConfig": {
     "name": "@netzwelt-vikas/storybook-basic",
     "registry": "https://npm.pkg.github.com/netzwelt-vikas"
-  },
-  "babel": {
-    "presets": [
-      "@babel/preset-env",
-      "@babel/preset-react"
-    ]
   }
 }
