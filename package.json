@@ -1,6 +1,6 @@
 {
   "name": "@netzwelt-vikas/storybook-basic",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "storybook-basic",
   "main": "index.js",
   "dependencies": {
