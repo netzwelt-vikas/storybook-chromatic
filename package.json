@@ -78,12 +78,8 @@
   },
   "babel": {
     "presets": [
-      [
-        "react-app",
-        {
-          "absoluteRuntime": false
-        }
-      ]
+      "@babel/preset-env",
+      "@babel/preset-react"
     ]
   }
 }
