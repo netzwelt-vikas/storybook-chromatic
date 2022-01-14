@@ -4,6 +4,7 @@
   "description": "storybook-basic",
   "main": "index.js",
   "dependencies": {
+    "@babel/plugin-syntax-jsx": "^7.16.7",
     "@chakra-ui/core": "^0.8.0",
     "@emotion/core": "^10.0.34",
     "@emotion/styled": "^10.0.27",
