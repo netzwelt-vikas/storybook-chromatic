@@ -7,8 +7,4 @@ module.exports = {
     "@storybook/preset-create-react-app",
     "@storybook/addon-knobs",
   ],
-  babel: async (options) => ({
-    ...options,
-    // any extra options you want to set
-  }),
 };

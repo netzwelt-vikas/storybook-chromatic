@@ -1,8 +1,7 @@
 {
-  "name": "@netzwelt-vikas/storybook-basic",
-  "version": "1.0.3",
-  "description": "storybook-basic",
-  "main": "index.js",
+  "name": "react-storybook-v6",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
     "@chakra-ui/core": "^0.8.0",
     "@emotion/core": "^10.0.34",
@@ -28,19 +27,6 @@
     "build-storybook": "build-storybook -s public",
     "chromatic": "npx chromatic --project-token=06e5091fb6f5"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/netzwelt-vikas/storybook-chromatic.git"
-  },
-  "keywords": [
-    "storybook-basic"
-  ],
-  "author": "vikas",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/netzwelt-vikas/storybook-chromatic/issues"
-  },
-  "homepage": "https://github.com/netzwelt-vikas/storybook-chromatic#readme",
   "eslintConfig": {
     "extends": "react-app"
   },
@@ -73,7 +59,6 @@
     "babel-loader": "8.1.0"
   },
   "publishConfig": {
-    "name": "@netzwelt-vikas/storybook-basic",
     "registry": "https://npm.pkg.github.com/netzwelt-vikas"
   }
 }
