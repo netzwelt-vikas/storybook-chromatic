@@ -7,4 +7,8 @@ module.exports = {
     "@storybook/preset-create-react-app",
     "@storybook/addon-knobs",
   ],
+  babel: async (options) => {
+    const babelConfig = require("../babel.config");
+    return { ...options, ...babelConfig };
+  },
 };
