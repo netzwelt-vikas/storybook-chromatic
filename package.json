@@ -1,8 +1,24 @@
 {
   "name": "@netzwelt-vikas/storybook-basic",
-  "version": "1.2.8",
+  "version": "1.0.0",
   "description": "storybook-basic",
   "main": "index.js",
+  "dependencies": {
+    "@chakra-ui/core": "^0.8.0",
+    "@emotion/core": "^10.0.34",
+    "@emotion/styled": "^10.0.27",
+    "@storybook/builder-webpack4": "^6.4.9",
+    "@storybook/manager-webpack4": "^6.4.9",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "emotion-theming": "^10.0.27",
+    "eslint-loader": "^4.0.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "3.4.3",
+    "webpack": "4.42.0"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -51,16 +67,23 @@
     "@storybook/react": "^6.4.9",
     "babel-loader": "^8.1.0",
     "chromatic": "^6.3.3",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "rollup": "^2.38.4",
-    "rollup-plugin-babel": "^4.4.0",
-    "rollup-plugin-peer-deps-external": "^2.2.4",
-    "rollup-plugin-postcss": "^4.0.0",
-    "rollup-plugin-terser": "^7.0.2"
+    "react-is": "^16.13.1"
+  },
+  "optionalDependencies": {
+    "babel-loader": "8.1.0"
   },
   "publishConfig": {
     "name": "@netzwelt-vikas/storybook-basic",
     "registry": "https://npm.pkg.github.com/netzwelt-vikas"
+  },
+  "babel": {
+    "presets": [
+      "@babel/react",
+      "@babel/env"
+    ],
+    "plugins": [
+      "@babel/proposal-class-properties",
+      "@babel/plugin-transform-runtime"
+    ]
   }
 }
